@@ -78,22 +78,20 @@ Amplitude.init({
             url: "mp3s/2-6/Vera 2-6 Listen and Repeat 4-7.mp3",
             cover_art_url: "images/2-6 Cover.png",
         },
-        // {
-        //     name: "Anvil",
-        //     artist: "Lorn",
-        //     album: "Anvil",
-        //     url: "https://521dimensions.com/song/LORN - ANVIL.mp3",
-        //     cover_art_url:
-        //         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
-        // },
-        // {
-        //     name: "I Came Running",
-        //     artist: "Ancient Astronauts",
-        //     album: "We Are to Answer",
-        //     url: "https://521dimensions.com/song/ICameRunning-AncientAstronauts.mp3",
-        //     cover_art_url:
-        //         "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
-        // },
+        {
+            name: "Listen to the Story",
+            artist: "Vera the Alien Hunter",
+            album: "Earth's True Alien Hunter: Pages 8-11",
+            url: "mp3s/2-6/Vera 2-6 Listen to the Story 8-11.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
+        {
+            name: "Listen and Repeat",
+            artist: "Vera the Alien Hunter",
+            album: "Earth's True Alien Hunter: Pages 8-11",
+            url: "mp3s/2-6/Vera 2-6 Listen and Repeat 8-11.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
         // {
         //     name: "First Snow",
         //     artist: "Emancipator",
