@@ -148,7 +148,7 @@ div#amplitude-right div.song img.bandcamp-white {
 }
 div#amplitude-right div.song span.song-duration {
     float: left;
-    width: 55px;
+    /* width: 55px; */
     text-align: center;
     line-height: 45px;
     color: #607d8b;

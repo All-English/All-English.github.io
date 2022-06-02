@@ -92,38 +92,34 @@ Amplitude.init({
             url: "mp3s/2-6/Vera 2-6 Listen and Repeat 8-11.mp3",
             cover_art_url: "images/2-6 Cover.png",
         },
-        // {
-        //     name: "First Snow",
-        //     artist: "Emancipator",
-        //     album: "Soon It Will Be Cold Enough",
-        //     url: "https://521dimensions.com/song/FirstSnow-Emancipator.mp3",
-        //     cover_art_url:
-        //         "https://521dimensions.com/img/open-source/amplitudejs/album-art/soon-it-will-be-cold-enough.jpg",
-        // },
-        // {
-        //     name: "Terrain",
-        //     artist: "pg.lost",
-        //     album: "Key",
-        //     url: "https://521dimensions.com/song/Terrain-pglost.mp3",
-        //     cover_art_url:
-        //         "https://521dimensions.com/img/open-source/amplitudejs/album-art/key.jpg",
-        // },
-        // {
-        //     name: "Vorel",
-        //     artist: "Russian Circles",
-        //     album: "Guidance",
-        //     url: "https://521dimensions.com/song/Vorel-RussianCircles.mp3",
-        //     cover_art_url:
-        //         "https://521dimensions.com/img/open-source/amplitudejs/album-art/guidance.jpg",
-        // },
-        // {
-        //     name: "Intro / Sweet Glory",
-        //     artist: "Jimkata",
-        //     album: "Die Digital",
-        //     url: "https://521dimensions.com/song/IntroSweetGlory-Jimkata.mp3",
-        //     cover_art_url:
-        //         "https://521dimensions.com/img/open-source/amplitudejs/album-art/die-digital.jpg",
-        // },
+        {
+            name: "Listen to the Story",
+            artist: "Vera the Alien Hunter",
+            album: "Earth's True Alien Hunter: Pages 12-15",
+            url: "mp3s/2-6/Vera 2-6 Listen to the Story 12-15.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
+        {
+            name: "Listen and Repeat",
+            artist: "Vera the Alien Hunter",
+            album: "Earth's True Alien Hunter: Pages 12-15",
+            url: "mp3s/2-6/Vera 2-6 Listen and Repeat 12-15.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
+        {
+            name: "Listen to the Story",
+            artist: "Vera the Alien Hunter",
+            album: "Earth's True Alien Hunter: Pages 16-18",
+            url: "mp3s/2-6/Vera 2-6 Listen to the Story 16-18.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
+        {
+            name: "Listen and Repeat",
+            artist: "Vera the Alien Hunter",
+            album: "Earth's True Alien Hunter: Pages 16-18",
+            url: "mp3s/2-6/Vera 2-6 Listen and Repeat 16-18.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
         // {
         //     name: "Offcut #6",
         //     artist: "Little People",
