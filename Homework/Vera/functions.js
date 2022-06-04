@@ -65,6 +65,13 @@ for (var i = 0; i < songElements.length; i++) {
 Amplitude.init({
     songs: [
         {
+            name: "Vera Homework",
+            artist: "Listen to the Story Twice.",
+            album: "Listen and Repeat Twice.",
+            url: "/Homework/Vera/Intro.mp3",
+            cover_art_url: "images/2-6 Cover.png",
+        },
+        {
             name: "Listen to the Story",
             artist: "Vera the Alien Hunter",
             album: "Earth's True Alien Hunter: Pages 4-7",
