@@ -823,7 +823,7 @@ div#large-visualization {
 .container {
     margin: 0 auto;
     /* width: 90%; */
-    max-width: 1100px;
+    max-width: 900px;
 }
 
 .row {
