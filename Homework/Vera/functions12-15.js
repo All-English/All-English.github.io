@@ -69,14 +69,14 @@ Amplitude.init({
             artist: "Vera the Alien Hunter",
             album: "Earth's True Alien Hunter: Pages 12-15",
             url: "mp3s/2-6/Vera 2-6 Listen to the Story 12-15.mp3",
-            cover_art_url: "images/2-6 Cover.png",
+            cover_art_url: "images/Cover.png",
         },
         {
             name: "Listen and Repeat",
             artist: "Vera the Alien Hunter",
             album: "Earth's True Alien Hunter: Pages 12-15",
             url: "mp3s/2-6/Vera 2-6 Listen and Repeat 12-15.mp3",
-            cover_art_url: "images/2-6 Cover.png",
+            cover_art_url: "images/Cover.png",
         },
     ],
     callbacks: {
