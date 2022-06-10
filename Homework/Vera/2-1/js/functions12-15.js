@@ -65,17 +65,17 @@ for (var i = 0; i < songElements.length; i++) {
 Amplitude.init({
     songs: [
         {
-            name: "Listen to the Story",
+            name: "Listen and Read Along",
             artist: "Vera the Alien Hunter",
             album: "Back to School: Pages 12-15",
-            url: "mp3s/Vera 2-1 Listen to the Story 12-15.mp3",
+            url: "mp3s/Vera 2-1 Listen and Read Along 12-15.mp3",
             cover_art_url: "images/cover.png",
         },
         {
-            name: "Listen and Repeat",
+            name: "Listen, Read, and Repeat",
             artist: "Vera the Alien Hunter",
             album: "Back to School: Pages 12-15",
-            url: "mp3s/Vera 2-1 Listen and Repeat 12-15.mp3",
+            url: "mp3s/Vera 2-1 Listen, Read, and Repeat 12-15.mp3",
             cover_art_url: "images/cover.png",
         },
     ],
