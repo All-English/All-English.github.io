@@ -826,17 +826,25 @@ div#large-visualization {
     max-width: 900px;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .page-screenshot {
     width: 100%;
     margin-top: 1rem;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+  flex-grow: .05;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .footer_links {
     background: #00a0ff;
     -webkit-box-shadow: 0 1px 0 0 #003da5;
