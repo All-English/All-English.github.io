@@ -112,7 +112,7 @@ main {
 }
 
 .link {
-    border-radius: px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     min-width: 25ch;
     padding: 0.5em 1em;
