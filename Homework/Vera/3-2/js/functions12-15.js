@@ -92,9 +92,6 @@ Amplitude.init({
                 "hidden";
         },
     },
-    waveforms: {
-        sample_rate: 50,
-    },
     volume: 100,
 });
 document.getElementById("large-visualization").style.height =
