@@ -95,6 +95,8 @@ Amplitude.init({
     waveforms: {
         sample_rate: 50,
     },
+    playback_speed: 0.85,
+    volume: 100,
 });
 document.getElementById("large-visualization").style.height =
     document.getElementById("album-art").offsetWidth + "px";
