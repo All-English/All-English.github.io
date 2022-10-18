@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=A, initial-scale=1.0">
+    <title>Vera - Listening Homework</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+    <script type="text/javascript" src="/Homework/amplitudejs/dist/amplitude.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Homework/style.css" />
+
+</head>
+
+<body>
+    <div id="preload">
+        <img src="/Homework/img/amplitudejs/repeat-off.svg" />
+        <img src="/Homework/img/amplitudejs/repeat-on.svg" />
+        <img src="/Homework/img/amplitudejs/prev.svg" />
+        <img src="/Homework/img/amplitudejs/play.svg" />
+        <img src="/Homework/img/amplitudejs/pause.svg" />
+        <img src="/Homework/img/amplitudejs/next.svg" />
+        <img src="/Homework/img/amplitudejs/shuffle-off.svg" />
+        <img src="/Homework/img/amplitudejs/shuffle-on.svg" />
+        <img src="/Homework/img/amplitudejs/list-play-light.png" />
+        <img src="/Homework/img/amplitudejs/list-play-hover.png" />
+        <img src="/Homework/img/amplitudejs/volume.svg" />
+        <img src="/Homework/img/amplitudejs/mute.svg" />
+    </div>
+
+    <header class="header">
+        <a href="https://www.allenglish.link">
+            <img class="logo" src="/Homework/logo.svg" alt="">
+        </a>
+    </header>
+
+    <!-- Blue Playlist Container -->
+    <div id="blue-playlist-container">
+
+        <!-- Amplitude Player -->
+        <div id="amplitude-player">
+
+            <!-- Left Side Player -->
+            <div id="amplitude-left">
+                <img data-amplitude-song-info="cover_art_url" class="album-art" />
+                <div class="amplitude-visualization" id="large-visualization">
+
+                </div>
+                <div id="player-left-bottom">
+                    <div id="time-container">
+                        <span class="current-time">
+                            <span class="amplitude-current-minutes"></span>:<span
+                                class="amplitude-current-seconds"></span>
+                        </span>
+                        <div id="progress-container">
+                            <div class="amplitude-wave-form">
+
+                            </div>
+                            <input type="range" class="amplitude-song-slider" />
+                            <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+                            <progress id="song-buffered-progress" class="amplitude-buffered-progress"
+                                value="0"></progress>
+                        </div>
+                        <span class="duration">
+                            <span class="amplitude-duration-minutes"></span>:<span
+                                class="amplitude-duration-seconds"></span>
+                        </span>
+                    </div>
+
+                    <div id="control-container">
+                        <div id="repeat-container">
+                            <div class="amplitude-repeat" id="repeat"></div>
+                            <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+                        </div>
+
+                        <div id="central-control-container">
+                            <div id="central-controls">
+                                <div class="amplitude-prev" id="previous"></div>
+                                <div class="amplitude-play-pause" id="play-pause"></div>
+                                <div class="amplitude-next" id="next"></div>
+                            </div>
+                        </div>
+
+                        <div id="volume-container">
+                            <div class="volume-controls">
+                                <div class="amplitude-mute amplitude-not-muted"></div>
+                                <input type="range" class="amplitude-volume-slider" />
+                                <div class="ms-range-fix"></div>
+                            </div>
+                            <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle-right"></div>
+                        </div>
+                    </div>
+
+                    <div id="meta-container">
+                        <span data-amplitude-song-info="name" class="song-name"></span>
+
+                        <div class="song-artist-album">
+                            <span data-amplitude-song-info="artist"></span>
+                            <span data-amplitude-song-info="album"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Left Side Player -->
+
+            <!-- Right Side Player -->
+            <div id="amplitude-right">
+                <!-- 1st mp3 -->
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="/Homework/img/amplitudejs/now-playing.svg" />
+                    </div>
+
+                    <div class="song-meta-data">
+                        <span class="song-title">Listen and Read Along</span>
+                        <span class="song-artist">Vera in Space</span>
+                    </div>
+                    <span class="song-duration">p. 8-11</span>
+                </div>
+                <!-- 2nd mp3 -->
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="/Homework/img/amplitudejs/now-playing.svg" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Listen, Read, and Repeat</span>
+                        <span class="song-artist">Vera in Space</span>
+                    </div>
+                    <span class="song-duration">p. 8-11</span>
+                </div>
+            </div>
+            <!-- End Right Side Player -->
+        </div>
+        <!-- End Amplitdue Player -->
+
+        <!-- End Blue Playlist Container -->
+    </div>
+
+    <div class="container">
+        <!-- Page images -->
+        <div class="row">
+            <img class="page-screenshot" src="images/page 8.png" alt="">
+            <img class="page-screenshot" src="images/page 9.png" alt="">
+            <img class="page-screenshot" src="images/page 10.png" alt="">
+            <img class="page-screenshot" src="images/page 11.png" alt="">
+        </div>
+        <!-- Links to other pages -->
+        <footer class="row">
+            <a class="footer_links" href="4-7.html">Pages 4-7</a>
+            <a class="footer_links" href="12-15.html">Pages 12-15</a>
+            <a class="footer_links" href="16-19.html">Pages 16-19</a>
+            <a class="footer_links" href="20-21.html">Pages 20-21</a>
+        </footer>
+    </div>
+
+    <!--
+          Include UX functions JS
+    
+          NOTE: These are for handling things outside of the scope of AmplitudeJS
+        -->
+    <script type="text/javascript" src="js/functions8-11.js"></script>
+
+</body>
+
+</html>
