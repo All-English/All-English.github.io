@@ -29,7 +29,7 @@ body {
   font-size: 100%;
   font-weight: 400;
   margin: 0;
-  padding-block: clamp(0.5rem, 10vw, 1rem);
+  /* padding-block: clamp(0.5rem, 10vw, 1rem); */
 }
 
 .english-font {
