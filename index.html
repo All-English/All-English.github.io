@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="style.css">
     <!-- Open source icons from https://remixicon.com/ -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script>
+        function setDocHeight() {
+            document.documentElement.style.setProperty('--vh', `${window.innerHeight / 100}px`);
+        };
+
+        addEventListener('resize', setDocHeight)
+        addEventListener('orientationchange', setDocHeight)
+
+        setDocHeight();
+    </script>
 </head>
 
 <body class="classic-gradient">
@@ -30,7 +40,8 @@
                     카카오톡 오픈채팅</a>
                 <!-- <a class="button instagram" href="https://instagram.com/allenglish.dongtan" target="_blank"><i
                         class="ri-instagram-line"></i> 인스타그램</a> -->
-                <a class="button" href="tel:010-2996-0656" target="_blank"><i class="ri-phone-line"></i> 010-2996-0656</a>
+                <a class="button" href="tel:010-2996-0656" target="_blank"><i class="ri-phone-line"></i>
+                    010-2996-0656</a>
             </footer>
         </main>
     </div>
