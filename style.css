@@ -7,7 +7,7 @@
 :root {
   --shadow: 2px 2px 10px #999999, -2px -2px 10px #ffffff;
   --inner-shadow: inset 2px 2px 10px #999999, inset -2px -2px 10px #ffffff;
-  --blue-in-logo: hsl(222, 72%, 28%);
+  --blue-in-logo: #14337b;
 }
 
 * {
@@ -18,8 +18,7 @@ body {
   align-items: center;
   /* background-color: #ffffff; */
   /* background-color: var(--blue-in-logo); */
-  background-image: url();
-  background-size: cover;
+
   /* filter: blur(10px); */
   /* opacity: 0.3; */
   display: flex;
@@ -38,9 +37,16 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+.classic-gradient {
+  background-image: linear-gradient(
+    to bottom right,
+    #14337b 0%,
+    #e9f1e9 88% 88%
+  );
+}
+
 .box-shadow {
   box-shadow: var(--shadow);
-  border-radius: 10px;
 }
 
 .container {
@@ -59,7 +65,9 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background-color: #fff;
   padding: 1.5rem clamp(1rem, 5%, 3rem);
+  border-radius: 10px;
 }
 
 header {
